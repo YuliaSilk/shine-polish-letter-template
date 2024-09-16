@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaufmann+BT&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 10px 6px 10px rgba(0, 0, 0, 0.5);
+  }
+}
+.text-main {
+  color: theme('colors.main');
+}
+
+.text-secondary {
+  color: theme('colors.secondary');
+}
+.bg-gradient {
+  background-image: linear-gradient(to right, transparent, #0e7490, transparent);
+}
